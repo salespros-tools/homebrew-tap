@@ -6,23 +6,23 @@
 class Salespros < Formula
   desc "SalesPros Companion: Apex language server and MCP/CLI agent channel"
   homepage "https://salespros.tools"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/salespros-tools/companion/releases/download/v0.1.0/salespros-darwin-arm64.tar.gz"
-      sha256 "7848d954de4ffbbd810388b9d29a32838f72b59f50e526d6544d9cd358c15249"
+      url "https://github.com/salespros-tools/companion/releases/download/v0.1.1/salespros-darwin-arm64.tar.gz"
+      sha256 "b8bd8ee48d2f32904c6442282c85b8d5142339172d409fd5e6af1f7d516d4a01"
     end
     on_intel do
-      url "https://github.com/salespros-tools/companion/releases/download/v0.1.0/salespros-darwin-x64.tar.gz"
-      sha256 "0ea829c2139cc8f93c33a1ac63e9c56b21b0a9d0457acd48dba20f9c94e1372c"
+      url "https://github.com/salespros-tools/companion/releases/download/v0.1.1/salespros-darwin-x64.tar.gz"
+      sha256 "17a043c88617064666992f2d0ad6fc5fbb350ee9383bc2965436015e02ef2403"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/salespros-tools/companion/releases/download/v0.1.0/salespros-linux-x64.tar.gz"
-      sha256 "2023eb25070857ee70012bb6c24e18636e5a9143a8371e87eefe36df938b080b"
+      url "https://github.com/salespros-tools/companion/releases/download/v0.1.1/salespros-linux-x64.tar.gz"
+      sha256 "933d26ddf9c3c8712855e2c6e8a9e99ce2230cd127b8d91fb1548dad41189132"
     end
   end
 
